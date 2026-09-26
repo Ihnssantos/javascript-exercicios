@@ -9,7 +9,7 @@ console.log(texto.includes("JavaScript"));//verifica se existe
 console.log(texto.indexOf("react"));//verifica qual indice
 console.log(texto.startsWith("Aprendendo"));//verifica se começa
 console.log(texto.endsWith("backend"));//verifica se termina
-console.log(texto.slice(11, 21));
+console.log(texto.slice(11, 21));//estrai pelo indice
 console.log(texto.replace("JavaScript", "JS"));//troca a primeira ocorrencia
 console.log(texto.replaceAll("JavaScript", "JS"));//troca todas as ocorrencia
 console.log(texto.split(" "));
